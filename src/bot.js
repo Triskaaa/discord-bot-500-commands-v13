@@ -5,6 +5,7 @@ const Spotify = require("erela.js-spotify");
 const Facebook = require("erela.js-facebook");
 const Deezer = require("erela.js-deezer");
 const AppleMusic = require("erela.js-apple");
+require('dotenv').config();
 
 const client = new Discord.Client({
     allowedMentions: {
